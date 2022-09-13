@@ -18,43 +18,45 @@ class Products
 
     public function getId($id) 
     {
-        $this->id = $Id;
-        return $this
-    };
+        $this->id = $id;
+        return $this;
+    }
+
     public function setId($id) 
     {
         $this->id = uniqid();
         return $this;
-    };
+    }
+
     public function getName($name) 
     {
         $this->name = $name;
         return $this;
-    };
+    }
 
     public function setName($name) 
     {
         $this->name = $name;
         return $this;
-    };
+    }
 
     public function getanimal($animal) 
     {
         $this->animal = $animal;
         return $this;
-    };
+    }
 
     public function setanimal($animal) 
     {
         $this->animal = $animal;
         return $this;
-    };
+    }
 
     public function getcost($cost) 
     {
         $this->cost = $cost;
         return $this;
-    };
+    }
 
     public function setcost($cost) 
     {
